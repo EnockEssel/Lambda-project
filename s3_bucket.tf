@@ -1,6 +1,6 @@
 # AWS s3 bucket
 resource "aws_s3_bucket" "uploaded_app_image" {
-  bucket = var.aws_s3_bucket.uploaded_app_image.default
+  bucket = var.aws_s3_bucket.uploaded_app_image
   
 
   versioning {
