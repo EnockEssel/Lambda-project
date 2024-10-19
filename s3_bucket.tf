@@ -1,6 +1,7 @@
 # AWS s3 bucket
 resource "aws_s3_bucket" "uploaded_app_image" {
-  bucket = var.aws_s3_bucket.uploaded_app_image.description
+  bucket = var.aws_s3_bucket.uploaded_app_image.default
+  
 
   versioning {
     enabled = true
