@@ -9,13 +9,13 @@ variable "region" {
 variable "uploaded_app_image" {
   description = "The name of the S3 bucket for uploading images"
   type        = string 
-  default = "uploaded_app_image"
+  default = "bucket1"
 }
 
 variable "edited_images_bucket" {
   description = "The name of the S3 bucket for processed images"
   type        = string
-  default = "edited_images_bucket"
+  default = "buket2"
 }
 
 variable "lambda_zip_file" {
