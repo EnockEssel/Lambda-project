@@ -1,7 +1,7 @@
 # variables.tf
 
 variable "region" {
-  description = "The AWS region to deploy resource"
+  description = "The AWS region to deploy resource at"
   type        = string
   default     = "us-east-1"
 }
